@@ -9,11 +9,6 @@ From https://github.com/sfsheng0322/MarqueeView
 
 <img src="/screenshot/MarqueeView_Gif.gif" style="width: 30%;">
 
-### 使用
-
-#### Gradle:
-
-    compile 'com.sunfusheng:marqueeview:1.0.0'
 
 #### 属性
 
