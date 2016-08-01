@@ -3,6 +3,8 @@
 俗名：垂直跑马灯  
 学名：垂直翻页公告
 
+From https://github.com/sfsheng0322/MarqueeView
+
 ### 效果图
 
 <img src="/screenshot/MarqueeView_Gif.gif" style="width: 30%;">
@@ -21,6 +23,8 @@
 | mvInterval         | 两行文字翻页时间间隔           |
 | mvTextSize         | 文字大小           |
 | mvTextColor         | 文字颜色          |
+| mvGravity         | 文字在布局中的位置          |
+
 
 #### XML
 
@@ -30,6 +34,7 @@
         android:layout_height="30dp"
         app:mvAnimDuration="1000"
         app:mvInterval="3000"
+        app:mvGravity="center"
         app:mvTextColor="@color/white"
         app:mvTextSize="14sp"/>
 
@@ -50,25 +55,9 @@
 
     String notice = "心中有阳光，脚底有力量！心中有阳光，脚底有力量！心中有阳光，脚底有力量！";
     marqueeView.startWithText(notice);
+    marqueeView.getPosition(); //获取当前显示文本的位置
 
 
-### [APK下载地址](http://fir.im/MarqueeView)
-
-### 微信公众号
-
-<img src="https://github.com/sfsheng0322/StickyHeaderListView/blob/master/screenshots/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" style="width: 30%;">
-
-### 关于我
-
-个人邮箱：sfsheng0322@126.com
-
-[GitHub主页](https://github.com/sfsheng0322)
-
-[简书主页](http://www.jianshu.com/users/88509e7e2ed1/latest_articles)
-
-[个人博客](http://sunfusheng.com/)
-
-[新浪微博](http://weibo.com/u/3852192525)
 
 License
 --
